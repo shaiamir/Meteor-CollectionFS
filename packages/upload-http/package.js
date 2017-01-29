@@ -14,7 +14,8 @@ Package.onUse(function(api) {
     'cfs:access-point@0.1.49',
     'cfs:power-queue@0.9.11',
     'cfs:reactive-list@0.0.9',
-    'aldeed:http'
+    //'aldeed:http' // Shai: remove this and use meteor http
+    'http'
   ]);
 
   api.addFiles([
